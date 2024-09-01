@@ -1,25 +1,32 @@
-.todoitems{
+.todoitems {
     display: flex;
     justify-content: space-between;
     padding: 16px 0px;
     align-items: center;
 }
-.todoitems-container{
+
+.todoitems-container {
     display: flex;
+    cursor: pointer; /* Indicate that it's clickable */
 }
-.todoitems-text{
+
+.todoitems-text {
     padding-left: 16px;
     color: #404040;
     font-size: 22px;
 }
-.todoitems-cross-icon{
+
+.todoitems-cross-icon,
+.todoitems-edit-icon {
     cursor: pointer;
     padding-right: 25px;
 }
-img{
+
+img {
     width: 20px;
     height: 20px;
 }
-.line-through{
+
+.line-through {
     text-decoration: line-through solid #ADADAD 3px;
 }
